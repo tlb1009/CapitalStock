@@ -1,0 +1,35 @@
+-----------------------------------------------------------------
+[2368] 2020/09/09 08:45:34.830 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-bq2.capital.com.tw
+[2368] 2020/09/09 08:45:34.902 OnSessionConnect¡ACode: 0
+[2368] 2020/09/09 08:45:35.000 market(0)  Ready!
+[2368] 2020/09/09 08:45:35.001 market(1)  Ready!
+[2368] 2020/09/09 08:45:35.009 market(2)  Ready!
+[2368] 2020/09/09 08:45:35.009 market(3)  Ready!
+[2368] 2020/09/09 08:45:35.037 market(4)  Ready!
+[2368] 2020/09/09 08:45:35.055 market(2)  Ready!
+[2368] 2020/09/09 08:45:35.061 market(3)  Ready!
+[2368] 2020/09/09 08:45:35.307 Market Info is OK!
+[2368] 2020/09/09 08:45:35.362 Catalog info is OK!
+[2368] 2020/09/09 08:46:05.418 -----------------------------------------------------------------
+[13756] 2020/09/09 08:46:19.759 SKQuoteLib_EnterMonitor IP¡Gsrvsolace-tp.capital.com.tw
+[13756] 2020/09/09 08:46:19.820 OnSessionConnect¡ACode: 0
+[13756] 2020/09/09 08:46:19.969 market(0)  Ready!
+[13756] 2020/09/09 08:46:19.969 market(2)  Ready!
+[13756] 2020/09/09 08:46:19.972 market(3)  Ready!
+[13756] 2020/09/09 08:46:19.972 market(1)  Ready!
+[13756] 2020/09/09 08:46:19.988 market(2)  Ready!
+[13756] 2020/09/09 08:46:19.993 market(3)  Ready!
+[13756] 2020/09/09 08:46:19.993 market(4)  Ready!
+[13756] 2020/09/09 08:46:20.264 Market Info is OK!
+[13756] 2020/09/09 08:46:20.340 Catalog info is OK!
+[13756] 2020/09/09 08:46:24.075 SKQuoteLib_IsConnected()
+[13756] 2020/09/09 08:47:36.555 SKQuoteLib_RequestBool
+[13756] 2020/09/09 08:47:36.555  SKQuoteLib_RequestBool (  1101 )
+[13756] 2020/09/09 08:47:45.365 SKQuoteLib_RequestFutureTradeInfo (0 , TX00)
+[13756] 2020/09/09 08:47:45.365 FutureTradeInfo - MarketNo¡G2 StockIdx¡G3742
+[13756] 2020/09/09 08:48:00.880 RequestStockList MarketNo is 9999
+[13756] 2020/09/09 08:49:27.836 SKQuoteLib_RequestStocks (-1 , 1101)
+[13756] 2020/09/09 08:49:27.836 Divide StockNo {1101}
+[13756] 2020/09/09 08:49:27.836 Add Basket MarketNo¡G0 StockIdx¡G17156
+[13756] 2020/09/09 08:49:27.836 Return PageNo¡G 1 
+[13756] 2020/09/09 08:50:00.580 -----------------------------------------------------------------
