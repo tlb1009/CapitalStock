@@ -36,6 +36,9 @@ namespace CapitalStock
         public Form1()
         {
             InitializeComponent();
+            textBox5.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            textBox7.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            textBox8.Text = DateTime.Now.ToString("yyyyMMdd");
             //initialize();
         }
         private void initialize()
@@ -79,9 +82,7 @@ namespace CapitalStock
                     _Stocks.Add(skData);
                 }
             }
-            textBox5.Text = DateTime.Now.ToString("yyyy/MM/dd");
-            textBox7.Text = DateTime.Now.ToString("yyyy/MM/dd");
-            textBox8.Text = DateTime.Now.ToString("yyyyMMdd");
+            
             skQuote.OnNotifyStockList += SkQuote_OnNotifyStockList;
             skQuote.OnNotifyKLineData += SkQuote_OnNotifyKLineData;
             skQuote.OnNotifyQuote += SkQuote_OnNotifyQuote;
