@@ -36,7 +36,7 @@ namespace CapitalStock
         public Form1()
         {
             InitializeComponent();
-            initialize();
+            //initialize();
         }
         private void initialize()
         {
@@ -1044,5 +1044,9 @@ namespace CapitalStock
         }
         #endregion
 
+        private void button21_Click(object sender, EventArgs e)
+        {
+            initialize();
+        }
     }
 }

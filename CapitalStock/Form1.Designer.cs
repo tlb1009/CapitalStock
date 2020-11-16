@@ -80,10 +80,11 @@
             this.button20 = new System.Windows.Forms.Button();
             this.listBox8 = new System.Windows.Forms.ListBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.button21 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
@@ -786,6 +787,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.button21);
             this.splitContainer1.Panel1.Controls.Add(this.textBox10);
             this.splitContainer1.Panel1.Controls.Add(this.textBox9);
             this.splitContainer1.Panel1.Controls.Add(this.button11);
@@ -799,6 +801,20 @@
             this.splitContainer1.Size = new System.Drawing.Size(1371, 721);
             this.splitContainer1.SplitterDistance = 60;
             this.splitContainer1.TabIndex = 5;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(691, 15);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(150, 25);
+            this.textBox10.TabIndex = 5;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(535, 15);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(150, 25);
+            this.textBox9.TabIndex = 4;
             // 
             // button11
             // 
@@ -822,19 +838,16 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // textBox9
+            // button21
             // 
-            this.textBox9.Location = new System.Drawing.Point(535, 15);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(150, 25);
-            this.textBox9.TabIndex = 4;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(691, 15);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(150, 25);
-            this.textBox10.TabIndex = 5;
+            this.button21.Location = new System.Drawing.Point(847, 9);
+            this.button21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(112, 38);
+            this.button21.TabIndex = 6;
+            this.button21.Text = "登入";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // Form1
             // 
@@ -956,6 +969,7 @@
         private System.Windows.Forms.ListBox listBox8;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Button button21;
     }
 }
 
