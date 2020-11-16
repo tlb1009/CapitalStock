@@ -40,9 +40,11 @@ namespace CapitalStock
         }
         private void initialize()
         {
+            string id = textBox9.Text;
+            string pw = textBox10.Text;
             ConnectionString = ConnectionString + DatabasePath + ";  Version = 3;";
             ConnectionStringDividend = ConnectionStringDividend + DatabasePathDivident + ";  Version = 3;";
-            int result = skCenter.SKCenterLib_Login("R121015220", "7952039");
+            int result = skCenter.SKCenterLib_Login(id, pw);
             this.Text = result.ToString();
             var filepath = $"d:/data";
             if (!Directory.Exists(filepath))
