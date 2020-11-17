@@ -23,9 +23,9 @@ namespace CapitalStock
 {
     public partial class Form1 : Form
     {
-        string DatabasePath = $"d:/data/stocks.sqlite";
+        string DatabasePath = $"G:/我的雲端硬碟/Data/stocks.sqlite";
         string ConnectionString = "DATA SOURCE=";
-        string DatabasePathDivident = $"d:/data/stockDividends.sqlite";
+        string DatabasePathDivident = $"G:/我的雲端硬碟/Data/stockDividends.sqlite";
         string ConnectionStringDividend = "Data SOURCE=";
         SKCenterLibClass skCenter = new SKCenterLibClass();
         SKQuoteLibClass skQuote = new SKQuoteLibClass();
@@ -49,7 +49,7 @@ namespace CapitalStock
             ConnectionStringDividend = ConnectionStringDividend + DatabasePathDivident + ";  Version = 3;";
             int result = skCenter.SKCenterLib_Login(id, pw);
             this.Text = result.ToString();
-            var filepath = $"d:/data";
+            var filepath = $"G:/我的雲端硬碟/Data";
             if (!Directory.Exists(filepath))
             {
                 Directory.CreateDirectory(filepath);
@@ -59,7 +59,7 @@ namespace CapitalStock
             {
                 Directory.CreateDirectory(filepath);
             }
-            var filename = $"d:/data/stocksNo.txt";
+            var filename = $"G:/我的雲端硬碟/Data/stocksNo.txt";
             if (File.Exists(filename))
             {
                 string[] readlist = File.ReadAllLines(filename);
@@ -125,7 +125,7 @@ namespace CapitalStock
             {
                 s += x.ID + "," + x.Name + Environment.NewLine;
             }
-            string filename = $"d:/data/stocksNo.txt";
+            string filename = $"G:/我的雲端硬碟/Data/stocksNo.txt";
             bool fExist = File.Exists(filename);
             if (fExist)
             {
